@@ -99,7 +99,7 @@ We welcome contributions from dream enthusiasts and developers! Help us make Noc
 
 Connect with fellow dream enthusiasts and developers in the Nocti AI community:
 
-Twitter(https://x.com/NoctiAI)
+[Twitter](https://x.com/NoctiAI)
 
 
 ## **Ready to Begin?**
