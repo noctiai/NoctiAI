@@ -1,123 +1,118 @@
 ![bannergit](https://github.com/user-attachments/assets/f15b2ec9-deec-42b8-bced-7f2b10f02833)
 
-# 🌙 Lunor AI: The Dream Decoder  
+# Try Nocti AI Now
 
-Welcome to **Lunor AI**, the advanced AI system that transforms your dreams into meaningful insights. Whether you're flying through the stars, falling endlessly, or exploring surreal landscapes, Lunor AI deciphers the hidden language of your subconscious to help you understand your inner world.
-
----
-
-## 🚀 Overview  
-
-**Lunor AI** is a cutting-edge dream interpretation tool designed to unlock the secrets of your subconscious. By combining advanced natural language processing, symbolic analysis, and dream psychology, Lunor AI empowers users to explore the deeper meaning behind their dreams.  
-
-Here’s what Lunor AI can do:  
-
-- Analyze dreams and provide personalized interpretations.  
-- Identify recurring patterns, themes, and emotions.  
-- Offer symbolic meanings based on dream psychology.  
-- Give actionable insights to enhance self-awareness.  
+Welcome to **Nocti AI: The Dream Decoder**, your gateway to unraveling the mysteries of your subconscious! This guide will walk you through every step to get started with decoding your dreams using our advanced AI.
 
 ---
 
-## ⚡ Key Features  
+## **Getting Started**
 
-- **📝 Natural Language Input**: Describe your dream in plain text, and Lunor AI will interpret it in seconds. Example: “I was flying over a city under a starry sky.”  
-- **🌌 Symbolic Analysis**: Unravel the symbols and themes in your dreams, such as flying, falling, or meeting strangers.  
-- **📊 Pattern Recognition**: Track recurring themes across multiple dreams to identify long-term trends.  
-- **💡 Personalized Insights**: Receive interpretations tailored to your experiences and emotions.  
-- **🌐 Accessible API**: Integrate Lunor AI into your projects or apps for seamless dream analysis.  
+To try Nocti AI, follow these steps in one seamless setup process:
+
+1. **Clone the Repository, Navigate to the Project Directory, and Install Dependencies**  
+   Clone the Nocti AI repository from GitHub, navigate to the project directory, and install the required Python libraries using `pip`.  
+
+   Run this single command in your terminal or command prompt:
+
+   ```bash
+   git clone https://github.com/yourusername/NoctiAI.git && cd NoctiAI && pip install -r requirements.txt
+   ```
+
+2. **Verify Your Setup**  
+   Ensure that Nocti AI is installed correctly by running the following command to test your installation:
+
+   ```bash
+   python -m nocti_ai.test
+   ```
+
+   If the setup is successful, you will see a confirmation message indicating Nocti AI is ready to use.
 
 ---
 
-## 🛠️ Installation  
+## **Using Nocti AI to Analyze Dreams**
 
-Clone the repository and install the required dependencies to get started with **Lunor AI**:  
+After setup, you can start using Nocti AI to analyze your dreams. Here’s how to do it step by step:
 
-```bash
-git clone https://github.com/yourusername/LunorAI
-cd lunorai
-pip install -r requirements.txt
-```  
+1. Open a Python environment or script.
+2. Import the `DreamInterpreter` module from Nocti AI.
+3. Describe your dream in plain text.
+4. Use Nocti AI to analyze your dream and display its interpretation.
 
----
-
-## 📚 Usage  
-
-You can use **Lunor AI** via the command line, in Python scripts, or through its API.  
-
-### Example: Interpret a Dream  
+Here’s an example:
 
 ```python
-from lunor_ai import DreamInterpreter
+from nocti_ai import DreamInterpreter
 
-# Input your dream
+# Describe your dream
 dream = """
-I was flying over a city under a starry sky,
-and the buildings were glowing like constellations.
+I was flying over a glowing city under a starry sky,
+and the buildings were shimmering like constellations.
 """
 
-# Analyze the dream using Lunor AI
-print("Analyzing your dream...")
-meaning = DreamInterpreter.analyze(dream)
+# Analyze the dream
+interpretation = DreamInterpreter.analyze(dream)
 
 # Display the interpretation
 print("🌙 Dream Interpretation 🌙")
 print(f"Dream: {dream.strip()}")
-print(f"Meaning: {meaning}")
-```  
+print(f"Meaning: {interpretation}")
+```
+
+Run this script to receive an in-depth analysis of your dream, including symbolic meanings, emotional insights, and actionable interpretations.
 
 ---
 
-## 📖 How It Works  
+## **Features to Explore**
 
-**Lunor AI** leverages advanced AI and dream psychology in a multi-step process:  
+Nocti AI offers more than just basic dream interpretation. Here are some key features you can explore:
 
-1. **Natural Language Processing (NLP)**: Your dream description is processed to extract symbols, themes, and emotions.  
-2. **Symbolic Mapping**: The AI identifies dream symbols like flying, falling, or water and maps them to their psychological meanings.  
-3. **Contextual Analysis**: The system evaluates your dream's context to personalize the interpretation.  
-4. **Personal Insights**: Lunor AI provides actionable insights, empowering you to reflect on your inner world.  
-
----
-
-## 🌟 Example Dream Meanings  
-
-Here are a few examples of what Lunor AI can interpret:  
-
-- **Flying**: Represents freedom, ambition, and the desire to rise above challenges.  
-- **Falling**: Symbolizes fear of failure, loss of control, or unresolved anxieties.  
-- **Water**: Represents emotions, intuition, and the flow of life.  
-- **Being Chased**: Indicates avoidance of a problem or fear in your waking life.  
+- **Symbolic Mapping:** Decipher common symbols like flying, falling, water, and more.
+- **Personalized Insights:** Interpretations are tailored to the context and emotions of your dreams.
+- **Recurring Pattern Analysis:** Discover long-term trends by analyzing multiple dreams over time.
 
 ---
 
-## 🔮 Future Plans  
+## **Need Help?**
 
-- **Dream Journaling**: Enable users to save and analyze recurring themes in their dreams over time.  
-- **Emotional Mapping**: Incorporate emotional tones into dream interpretations for deeper insights.  
-- **Community Features**: Allow users to share their dreams and interpretations with others.  
+If you encounter any issues or have questions, here are ways to find help:
 
----
-
-## 📝 License  
-
-Lunor AI is licensed under the [MIT License](LICENSE). Feel free to fork and contribute to the project!  
+1. Visit the [GitHub Issues Page](https://github.com/yourusername/NoctiAI/issues) to report problems or check for existing solutions.
+2. Refer to the documentation provided in the repository for additional guidance.
 
 ---
 
-## 🌌 Contributing  
+## **Contributing to Nocti AI**
 
-We welcome contributions from dream enthusiasts and developers! Help us make **Lunor AI** even better by submitting new features, bug fixes, or improved documentation.  
+Are you a developer or dream enthusiast? Help improve Nocti AI by contributing to the project! Here’s how you can get involved:
 
-1. Fork the repository.  
-2. Create your feature branch (`git checkout -b feature/new-feature`).  
-3. Commit your changes (`git commit -m 'Add new feature'`).  
-4. Push to the branch (`git push origin feature/new-feature`).  
-5. Open a Pull Request.  
+1. **Fork the Repository:** Create a personal copy of Nocti AI on GitHub.
+2. **Create a New Branch:** Make a branch for your feature or fix.
+
+   ```bash
+   git checkout -b feature/your-feature-name
+   ```
+
+3. **Make Changes:** Add your feature or fix.
+4. **Commit Your Changes:** Save your work with a clear commit message.
+
+   ```bash
+   git add .
+   git commit -m "Add your feature or fix description"
+   ```
+
+5. **Push to Your Branch:** Upload your changes to your GitHub fork.
+
+   ```bash
+   git push origin feature/your-feature-name
+   ```
+
+6. **Submit a Pull Request:** Open a pull request on the main repository to get your changes reviewed and merged.
 
 ---
 
-## 🌙 Join the Community  
+## **Ready to Begin?**
 
-Connect with fellow dream enthusiasts and developers in the **Lunor AI** community:  
+You’re now ready to explore Nocti AI and unlock the secrets of your dreams. Start your journey today:
 
-- [Twitter](https://x.com/ailunor)
+[Explore the Repository and Get Started!](https://github.com/yourusername/NoctiAI)
