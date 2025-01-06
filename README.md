@@ -1,6 +1,8 @@
 ![bannergit](https://github.com/user-attachments/assets/f15b2ec9-deec-42b8-bced-7f2b10f02833)
 
-# Welcome to Nocti AI, the advanced AI system that transforms your dreams into meaningful insights. Whether you're flying through the stars, falling endlessly, or exploring surreal landscapes, Nocti AI deciphers the hidden language of your subconscious to help you understand your inner world.
+#Introducing Nocti AI
+
+Welcome to Nocti AI, the advanced AI system that transforms your dreams into meaningful insights. Whether you're flying through the stars, falling endlessly, or exploring surreal landscapes, Nocti AI deciphers the hidden language of your subconscious to help you understand your inner world.
 
 🚀 Overview
 Nocti AI is a cutting-edge dream interpretation tool designed to unlock the secrets of your subconscious. By combining advanced natural language processing, symbolic analysis, and dream psychology, Nocti AI empowers users to explore the deeper meaning behind their dreams.
